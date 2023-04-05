@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <!-- this file is importance for configuration file in your resources as Details Database -->
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3308/employee</property>
+        <property name="hibernate.connection.username">root-np</property>
+        <property name="hibernate.connection.password">642/321Architecture?222</property>
+        <!-- Database connection settings -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property> <!-- SQL dialect -->
+        <property name="show_sql">false</property> <!-- Logs all executed SQL to console -->
+        <!-- name=" syntax on xml hibernate "-->
+        <!-- <property name="hibernate.hbm2ddl.auto">create</property> when using create มันสร้าง table auto -->
+    </session-factory>
+</hibernate-configuration>
