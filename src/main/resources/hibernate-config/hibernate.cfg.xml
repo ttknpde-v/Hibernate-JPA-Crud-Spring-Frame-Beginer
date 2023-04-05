@@ -5,9 +5,9 @@
     <session-factory>
         <!-- Database connection settings -->
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3308/employee</property>
-        <property name="hibernate.connection.username">root-np</property>
-        <property name="hibernate.connection.password">642/321Architecture?222</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3308/***</property>
+        <property name="hibernate.connection.username">***</property>
+        <property name="hibernate.connection.password">***</property>
         <!-- Database connection settings -->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property> <!-- SQL dialect -->
         <property name="show_sql">false</property> <!-- Logs all executed SQL to console -->
